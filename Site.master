@@ -12,6 +12,12 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 247px;
+            height: 83px;
+        }
+    </style>
 </head>
 <body>
     <form runat="server">
@@ -38,7 +44,7 @@
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title">
-                <img src="Images/Logo.jpg" width="247" height="66" style="margin-top: 0px" /></p>
+                    <img alt="LogoPepsi" class="auto-style1" src="Images/logopepsi.png" /></p>
                 &nbsp;</div>
             <div class="float-right">
                 <section id="login">
